@@ -1,0 +1,69 @@
+body{
+  background-image:url('http://hdwallpapersfit.com/wp-content/uploads/2015/03/rocky-mountains-canada-wallpaper-hd.jpg');
+  margin: 0;
+}
+.header{
+  display: none;
+  position: fixed;
+  width:100vw;
+  background-color: hsla(280,80%,20%,.7);
+  height: 7vw;
+  top: 0;
+  left: 0;
+  clear:
+}
+.links{
+  float:left;
+  height:100%;
+  width: 50%;
+  display: absolute;
+  text-align: center;
+
+}
+.search{
+  width:50%;
+  height:100%;
+  border:1pt soild black;
+  float: right;
+  text-align: center;
+  display:absolute;
+}
+.nav{
+  float: left;
+}
+
+.btn {
+  background: #640a7a;
+  background-image: -webkit-linear-gradient(top, #640a7a, #782bb8);
+  background-image: -moz-linear-gradient(top, #640a7a, #782bb8);
+  background-image: -ms-linear-gradient(top, #640a7a, #782bb8);
+  background-image: -o-linear-gradient(top, #640a7a, #782bb8);
+  background-image: linear-gradient(to bottom, #640a7a, #782bb8);
+  -webkit-border-radius: 29;
+  -moz-border-radius: 29;
+  border-radius: 29px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #042438 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #000000;
+  text-decoration: none;
+}
+.canvas{
+    background: blue;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 100px;
+}
+#accordian{
+    background-color: hsla(280,80%,20%,.7);
+
+}
+article {
+  display:none;
+}
